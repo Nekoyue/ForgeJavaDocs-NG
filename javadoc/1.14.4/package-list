@@ -22,6 +22,7 @@ net.minecraftforge.common.crafting
 net.minecraftforge.common.crafting.conditions
 net.minecraftforge.common.data
 net.minecraftforge.common.extensions
+net.minecraftforge.common.loot
 net.minecraftforge.common.model
 net.minecraftforge.common.model.animation
 net.minecraftforge.common.property
@@ -35,6 +36,7 @@ net.minecraftforge.debug.entity
 net.minecraftforge.debug.entity.player
 net.minecraftforge.debug.fluid
 net.minecraftforge.debug.gameplay.advancement
+net.minecraftforge.debug.gameplay.loot
 net.minecraftforge.debug.misc
 net.minecraftforge.energy
 net.minecraftforge.event
