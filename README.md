@@ -9,4 +9,4 @@
 | 1.12.2  | 1.12.2-14.23.5.2854 | [Javadoc](https://forge.yue.moe/javadoc/1.12.2/) |
 
 
-For pervious versions refer to [skmedix/ForgeJavaDocs](https://skmedix.github.io/ForgeJavaDocs/)
+For previous versions refer to [skmedix/ForgeJavaDocs](https://skmedix.github.io/ForgeJavaDocs/)
