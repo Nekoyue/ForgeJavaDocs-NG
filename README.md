@@ -1,4 +1,5 @@
-# [ForgeJavaDocs-NG](https://github.com/Nekoyue/ForgeJavaDocs-NG)
+# ForgeJavaDocs-NG
+[Fork me on GitHub](https://github.com/Nekoyue/ForgeJavaDocs-NG)
 
 | Version | Forge Version       | Javadoc URL |
 | ------- | ------------------- | ----------- |
