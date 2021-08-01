@@ -207,6 +207,7 @@ net.minecraftforge.client.model.geometry
 net.minecraftforge.client.model.obj
 net.minecraftforge.client.model.pipeline
 net.minecraftforge.client.settings
+net.minecraftforge.client.textures
 net.minecraftforge.common
 net.minecraftforge.common.animation
 net.minecraftforge.common.asm
@@ -227,6 +228,7 @@ net.minecraftforge.common.world
 net.minecraftforge.debug
 net.minecraftforge.debug.block
 net.minecraftforge.debug.chat
+net.minecraftforge.debug.client
 net.minecraftforge.debug.client.model
 net.minecraftforge.debug.client.rendering
 net.minecraftforge.debug.command
