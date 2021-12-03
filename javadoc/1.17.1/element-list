@@ -315,6 +315,7 @@ net.minecraftforge.debug.gameplay.loot
 net.minecraftforge.debug.item
 net.minecraftforge.debug.misc
 net.minecraftforge.debug.world
+net.minecraftforge.debug.world.item
 net.minecraftforge.energy
 net.minecraftforge.entity
 net.minecraftforge.event
