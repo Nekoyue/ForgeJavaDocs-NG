@@ -288,6 +288,7 @@ net.minecraftforge.client.model.generators.loaders
 net.minecraftforge.client.model.geometry
 net.minecraftforge.client.model.obj
 net.minecraftforge.client.model.pipeline
+net.minecraftforge.client.model.renderable
 net.minecraftforge.client.settings
 net.minecraftforge.client.textures
 net.minecraftforge.common
@@ -377,7 +378,10 @@ net.minecraftforge.server.command
 net.minecraftforge.server.console
 net.minecraftforge.server.loading
 net.minecraftforge.server.permission
-net.minecraftforge.server.permission.context
+net.minecraftforge.server.permission.events
+net.minecraftforge.server.permission.exceptions
+net.minecraftforge.server.permission.handler
+net.minecraftforge.server.permission.nodes
 net.minecraftforge.server.timings
 net.minecraftforge.test
 net.minecraftforge.versions.forge
