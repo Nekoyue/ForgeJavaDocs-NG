@@ -5,6 +5,7 @@
 | Version | Forge Version       | Javadoc URL                                                           |
 |---------|---------------------|-----------------------------------------------------------------------|
 | 1.18.2  | 1.18.2-40.0.0       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.18.2/) |
+| 1.18.1  | 1.18.1-39.1.2       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.18.1/) |
 | 1.17.1  | 1.17.1-37.1.0       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.17.1/) |
 | 1.16.5  | 1.16.5-36.2.19      | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.16.5/) |
 | 1.15.2  | 1.15.2-31.2.47      | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.15.2/) |
