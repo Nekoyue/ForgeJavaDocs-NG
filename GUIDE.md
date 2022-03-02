@@ -1,18 +1,18 @@
 # Guide to build your own Forge Javadocs
 
-This guide uses build-in tools of IntelliJ IDEA to generate Javadocs files. Some alternative ways could be `javadoc` and `./gradlew javadoc` commands.
+This guide uses build-in tools of IntelliJ IDEA. Some alternative ways to generate Javadocs could be `javadoc` and `./gradlew javadoc` commands.
 
-1. Clone Forge repository to your local machine. Add e.g. `--branch 1.18.x` option in case you need to specify a Minecraft version.
+1. Clone Forge repository to your local machine. Add e.g. `--branch 1.18.x` option in case you need to specify a Minecraft version number.
 
 ```text
 git clone https://github.com/MinecraftForge/MinecraftForge.git
 ```
 
-2. Import Forge project to IntelliJ IDEA. Simply drag & drop `MinecraftForge` folder to IntelliJ IDEA's starting menu. Click on "Trust Project" if prompted.
+2. Import Forge project to IntelliJ IDEA. Simply drag & drop `MinecraftForge` folder to IntelliJ IDEA's starting menu. Click "Trust Project" if prompted.
   
-3. Run `./gradlew setup` command in terminal (or select `setup` task in Gradle menu.) This will download Minecraft's source code for generating documentation of `com.mojang.*` and `net.minecraft.*` packages.
+3. Run `./gradlew setup` command in the terminal (or select `setup` task in Gradle menu.) This will download Minecraft's source code used by `com.mojang.*` and `net.minecraft.*` packages' documentation.
   
-4. Delete `./projects/clean/` and `./projects/fmlonly/` folders. These files cause conflicts during file generation.
+4. Delete `./projects/clean/` and `./projects/fmlonly/` folders. These files may cause conflicts during file generation.
 
 5. Select `Tools` - `Generate JavaDoc...` in the menu bar. You may need to change the output directory and command-line arguments like follows:
 
