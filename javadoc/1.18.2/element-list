@@ -323,6 +323,7 @@ net.minecraftforge.debug.fluid
 net.minecraftforge.debug.gameplay.loot
 net.minecraftforge.debug.item
 net.minecraftforge.debug.misc
+net.minecraftforge.debug.recipe.recipebook
 net.minecraftforge.debug.world
 net.minecraftforge.debug.world.item
 net.minecraftforge.energy
@@ -374,6 +375,7 @@ net.minecraftforge.network.event
 net.minecraftforge.network.filters
 net.minecraftforge.network.simple
 net.minecraftforge.registries
+net.minecraftforge.registries.tags
 net.minecraftforge.resource
 net.minecraftforge.server
 net.minecraftforge.server.command
