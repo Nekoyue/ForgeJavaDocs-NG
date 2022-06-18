@@ -1,25 +1,29 @@
-# Guide to build your own Forge Javadocs
+# Guide to building your own Forge Javadocs
 
-This guide uses build-in tools of IntelliJ IDEA. Some alternative ways to generate Javadocs could be `javadoc` and `./gradlew javadoc` commands.
+This guide uses IntelliJ IDEA's build-in tools to generate Javadocs. An alternative way is to use `javadoc`
+or `./gradlew javadoc` command, and the procedure is not covered here.
 
-1. Clone Forge repository to your local machine. Add e.g. `--branch 1.18.x` option in case you need to specify a Minecraft version number.
+1. Clone Forge repository to your local machine. Add e.g. `--branch 1.18.x` option if needed to work with an earlier
+   version of Minecraft.
+    ```text
+    git clone https://github.com/MinecraftForge/MinecraftForge.git
+    ```
 
-```text
-git clone https://github.com/MinecraftForge/MinecraftForge.git
-```
+2. Open Forge project in IntelliJ IDEA. Click "Trust Project" if prompted.
+   Set project SDK in `Top Menu Bar` - `File` - `Project Structure`. The IDE may sometimes do this automatically.
 
-2. Import Forge project to IntelliJ IDEA. Simply drag & drop `MinecraftForge` folder to IntelliJ IDEA's starting menu. Click "Trust Project" if prompted.
-  
-3. Run `./gradlew setup` command in the terminal (or select `setup` task in Gradle menu.) This will download Minecraft's source code used by `com.mojang.*` and `net.minecraft.*` packages' documentation.
-  
-4. Delete `./projects/clean/` and `./projects/fmlonly/` folders. These files may cause conflicts during file generation.
+3. Run `./gradlew setup` command in the terminal (or select `setup` task from the Gradle menu).
+   This will download Minecraft's source code and generate documents from `com.mojang.*` and `net.minecraft.*` later.
 
-5. Select `Tools` - `Generate JavaDoc...` in the menu bar. You may need to change the output directory and command-line arguments like follows:
+4. Delete `./projects/clean/` and `./projects/fmlonly/` folders. These files cause conflicts during Javadoc generation.
 
-```text
--encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.18.1-39.0.57" -doctitle "forge 1.18.1-39.0.57"
-```
+5. Select `Top Menu Bar` - `Tools` - `Generate JavaDoc...`. Choose an output directory.
+   Set the command-line arguments like follows:
 
-<img src="https://gist.github.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/a33f35ba90bb299e14666736bd430c6a1658e3e2/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
+    ```text
+    -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19-41.0.38" -doctitle "forge 1.19-41.0.38" 
+    ```
 
-6. Complete by clicking "OK" button, take a break. The document can be opened with `index.html` file in the output folder.
+    <img src="https://gist.github.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/a33f35ba90bb299e14666736bd430c6a1658e3e2/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
+
+6. Complete by clicking "OK" button and take a break. Done.

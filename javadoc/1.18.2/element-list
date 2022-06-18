@@ -358,6 +358,7 @@ net.minecraftforge.fml.loading.moddiscovery
 net.minecraftforge.fml.loading.progress
 net.minecraftforge.fml.loading.targets
 net.minecraftforge.fml.loading.toposort
+net.minecraftforge.fml.lowcodemod
 net.minecraftforge.fml.mclanguageprovider
 net.minecraftforge.fml.server
 net.minecraftforge.fml.util
