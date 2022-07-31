@@ -21,7 +21,7 @@ or `./gradlew javadoc` command, and the procedure is not covered here.
    Set the command-line arguments like follows:
 
     ```text
-    -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19-41.0.38" -doctitle "forge 1.19-41.0.38" 
+    -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19.1-42.0.1" -doctitle "forge 1.19.1-42.0.1" 
     ```
 
     <img src="https://gist.github.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/a33f35ba90bb299e14666736bd430c6a1658e3e2/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
