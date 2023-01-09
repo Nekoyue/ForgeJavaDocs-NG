@@ -5,7 +5,7 @@ or `./gradlew javadoc`, and the procedure is not covered here.
 
 1. Clone the Forge repository to your local machine. Specify an e.g. `--branch 1.18.x` option to work with an earlier version.
     ```text
-    git clone https://github.com/MinecraftForge/MinecraftForge.git
+    git clone --depth 1 https://github.com/MinecraftForge/MinecraftForge.git 
     ```
 
 2. Open Forge project in IntelliJ IDEA. Click "Trust Project" if prompted.
@@ -20,7 +20,7 @@ or `./gradlew javadoc`, and the procedure is not covered here.
    Set the command-line arguments like follows:
 
     ```text
-    -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19.2-43.1.57" -doctitle "forge 1.19.2-43.1.57" 
+    -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19.3-44.1.4" -doctitle "forge 1.19.3-44.1.4" 
     ```
 
     <img src="https://gist.github.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/a33f35ba90bb299e14666736bd430c6a1658e3e2/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
