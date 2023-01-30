@@ -363,8 +363,6 @@ net.minecraftforge.fml.mclanguageprovider
 net.minecraftforge.fml.server
 net.minecraftforge.fml.util
 net.minecraftforge.fml.util.thread
-net.minecraftforge.fmlonly
-net.minecraftforge.fmlonlyclient
 net.minecraftforge.forge.event.lifecycle
 net.minecraftforge.gametest
 net.minecraftforge.internal

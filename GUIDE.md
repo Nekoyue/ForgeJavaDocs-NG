@@ -23,6 +23,6 @@ or `./gradlew javadoc`, and the procedure is not covered here.
     -encoding utf-8 -docencoding utf-8 -charset utf-8 -windowtitle "forge 1.19.3-44.1.4" -doctitle "forge 1.19.3-44.1.4" 
     ```
 
-    <img src="https://gist.github.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/a33f35ba90bb299e14666736bd430c6a1658e3e2/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
+    <img src="https://gist.githubusercontent.com/Nekoyue/b282e42f033572d7548a640d9f02b28f/raw/7bf941af87c7cbea1ed15ee7eae413fbd32bc6bb/1_GenerateJavaDocWindow.png" width="500" alt="Generate JavaDoc window"/>
 
 6. Complete by clicking "OK" button and take a break. Done.
