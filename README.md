@@ -4,7 +4,7 @@
 
 | Version         | Forge Version       | Javadoc URL                                                                   |
 |-----------------|---------------------|-------------------------------------------------------------------------------|
-| 1.20.6-neoforge | 20.6.110-beta       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.20.6-neoforge/ |
+| 1.20.6-neoforge | 20.6.110-beta       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.20.6-neoforge/) |
 | 1.19.3          | 1.19.3-44.1.8       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.19.3/)         |
 | 1.18.2          | 1.18.2-40.2.1       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.18.2/)         |
 | 1.17.1          | 1.17.1-37.1.0       | [Javadoc](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.17.1/)         |
